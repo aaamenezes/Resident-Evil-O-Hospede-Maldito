@@ -1,0 +1,17 @@
+OK	Anotar pontos de análise
+OK	Ver filme, comentar cenas tirando prints
+OK	Desenhar storytelling do site/protótipo do site
+OK	Programar estrutura inicial
+OK	Criar modelos de diagramação das páginas de análise
+OK	Copiar comentários para um doc sem as imagens e ver se o texto faz sentido
+OK	Fazer análise final sobre brilho, saturação, temperatura, composição de cores, matiz
+OK	Colocar a roda das cores em cima de algumas imagens
+	Colocar textos e imagens da análise nos ARTICLES
+	Escolher a diagramação de cada ARTICLE
+	Colorir texto, fundo do texto, e fundo das imagenscada ARTICLE
+	
+	Colocar botões de IR e VOLTAR em todas telas
+	Remover botão VOLTAR da primeira página da análise (ou colocar um "vc não pode mais voltar")
+	
+	Criar créditos
+	Criar fim

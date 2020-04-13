@@ -4,86 +4,124 @@
     margin: 0;
 }
 
-/*****************************************/
-
-#voltar {
-    font-size: 1.4em;
-    position: fixed;
-    top:30px;
-    right: 30px;
+body {
+    /* overflow: hidden; */
+    font-family: 'Baloo Paaji 2', cursive;
 }
 
-/*****************************************/
-
-body {
-    overflow: hidden;
+p {
+ font-size: 1.8em;
+ margin-bottom: 10px;
 }
 
 section {
     height: 100vh;
+    width: 100vw;
 }
 
-article.um {
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.voltar,
+.avancar {
+    position: fixed;
+    bottom: 50px;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-weight: bold;
+    animation-name: surgirAnalise;
+    animation-duration: 1s;
+}
+
+@keyframes surgirAnalise {
+    0% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+.voltar {
+    right: 250px;
+    border: 2px solid #801500;
+    background-color: #FFF;
+    color: #801500;
+}
+
+.avancar {
+    right: 50px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    background-color: #801500;
+}
+
+.voltar:hover,
+.avancar:hover {
+    box-shadow: 0 0 30px 10px #FF2A00;
+    opacity: 1;
+}
+
+/****************/
+/* DIAGRAMAÇÕES */
+/****************/
+
+.um {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-    article.um div {
+    .um div {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
     }
 
-article.umEUmHorizontal {
+.umEUmHorizontal {
     display: flex;
     flex-direction: row;
 }
 
-    article.umEUmHorizontal div {
-        flex-grow: 1;
-        
+    .umEUmHorizontal div {        
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
-        padding: 20px;
+        text-align: center;
         height: 100vh;
+        width: 50vw;
     }
 
-article.umEUmVertical {
+.umEUmVertical {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
-    article.umEUmVertical div {
-        flex-grow: 1;
-        
+    .umEUmVertical div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     
-        padding: 20px;
         width: 100vw;
+        height: 50vh;
     }
 
-article.umEDoisHorizontal {
+.umEDoisHorizontal {
     display: flex;
     flex-direction: row;
 }
 
-    article.umEDoisHorizontal div {
+    .umEDoisHorizontal div {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        flex-grow: 1;
-        padding: 20px;
+        width: 50vw;
     }
 
-    article.umEDoisHorizontal div div {
+    .umEDoisHorizontal div div {
         
         display: flex;
         flex-direction: column;
@@ -92,20 +130,19 @@ article.umEDoisHorizontal {
         height: 50vh;
     }
 
-article.doisEUmHorizontal {
+.doisEUmHorizontal {
     display: flex;
     flex-direction: row;
 }
 
-    article.doisEUmHorizontal div {
+    .doisEUmHorizontal div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         flex-grow: 1;
-        padding: 20px;
     }
 
-    article.doisEUmHorizontal div div {
+    .doisEUmHorizontal div div {
         
         display: flex;
         flex-direction: column;
@@ -114,49 +151,59 @@ article.doisEUmHorizontal {
         height: 50vh;
     }
 
-article.umEDoisVertical {
+.umEDoisVertical {
     display: flex;
     flex-direction: column;
 }
 
-    article.umEDoisVertical div {
+    .umEDoisVertical div {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         flex-grow: 1;
-        padding: 20px;
         height: 50vh;
     }
 
-    article.umEDoisVertical div div {
+    .umEDoisVertical div div {
         display: flex;
         flex-direction: row;
         justify-content: center;
 
     }
 
-article.doisEUmVertical {
+.doisEUmVertical {
     display: flex;
     flex-direction: column;
 }
 
-    article.doisEUmVertical div {
+    .doisEUmVertical div {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         flex-grow: 1;
-        padding: 20px;
         height: 50vh;
     }
 
-    article.doisEUmVertical div div {
+    .doisEUmVertical div div {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-article.doisEDois {
+.doisEDois {
     display: flex;
 }
+
+    .doisEDois div {
+        height: 50vh;
+        width: 50vw;
+        text-align: center;
+    }
+
+    .doisEDois div div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
