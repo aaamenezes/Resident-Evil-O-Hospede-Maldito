@@ -35,11 +35,11 @@ img {
     text-decoration: none;
     padding: 10px 50px;
     font-weight: bold;
-    animation-name: surgirAnalise;
+    animation-name: surgirVoltarAvancar;
     animation-duration: 1s;
 }
 
-@keyframes surgirAnalise {
+@keyframes surgirVoltarAvancar {
     0% {opacity: 0;}
     90% {opacity: 0;}
     100% {opacity: 100;}

@@ -6,12 +6,39 @@ OK	Criar modelos de diagramação das páginas de análise
 OK	Copiar comentários para um doc sem as imagens e ver se o texto faz sentido
 OK	Fazer análise final sobre brilho, saturação, temperatura, composição de cores, matiz
 OK	Colocar a roda das cores em cima de algumas imagens
-	Colocar textos e imagens da análise nos ARTICLES
-	Escolher a diagramação de cada ARTICLE
-	Colorir texto, fundo do texto, e fundo das imagenscada ARTICLE
+	Colocar textos e imagens da análise nos ARTICLES / Escolher a diagramação de cada ARTICLE / Colocar botões de IR e VOLTAR em todas telas
 	
-	Colocar botões de IR e VOLTAR em todas telas
-	Remover botão VOLTAR da primeira página da análise (ou colocar um "vc não pode mais voltar")
+	Colorir texto, fundo do texto, e fundo das imagens em cada página
+	
+	Colocar um "vc não pode mais voltar" na primeira página de análise
 	
 	Criar créditos
 	Criar fim
+
+
+
+
+
+
+
+
+
+
+
+------------------
+
+doisEDois
+umEUmHorizontal
+doisEUmVertical
+doisEUmHorizontal
+
+um
+umEUmVertical
+umEDoisHorizontal
+umEDoisVertical
+
+-------------------
+
+style="background-image: url(../img/1.png); background-size: cover; background-position: center; color: #fff; font-weight: bold;"
+
+-------------------
