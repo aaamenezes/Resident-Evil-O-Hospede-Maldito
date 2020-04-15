@@ -143,6 +143,7 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 50vw;
     }
 
     .doisEUmHorizontal div div {

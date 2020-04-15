@@ -27,15 +27,15 @@ OK	Colocar a roda das cores em cima de algumas imagens
 
 ------------------
 
-doisEDois
-umEUmHorizontal
+umEUmVertical
+umEDoisVertical
 doisEUmVertical
 doisEUmHorizontal
 
 um
-umEUmVertical
 umEDoisHorizontal
-umEDoisVertical
+doisEDois
+umEUmHorizontal
 
 -------------------
 
