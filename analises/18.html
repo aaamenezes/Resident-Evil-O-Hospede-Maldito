@@ -5,22 +5,22 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 18</title>
 </head>
 <body>
     
-<section class="umEDoisHorizontal">
+<section class="doisEDois">
 
     <div>
-        <p>Você se lembra das pessoas que morreram no elevador?</p>
-        <p>Durante a invasão, a equipe da Alice abriu as portas de um elevador e acendeu um sinalizador para iluminar o túnel do mesmo.</p>
+        <div><p>Você se lembra das pessoas que morreram no elevador?</p></div>
+        <div><p>Durante a invasão, a equipe da Alice abriu as portas de um elevador e acendeu um sinalizador para iluminar o túnel do mesmo.</p></div>
     </div>
 
     <div>
         <div>
-            <p>A cor da luz poderia ser qualquer uma. Mas qual é? Exato, verde. A mesma cor dos olhos dela.</p>
+            <p>A cor da luz poderia ser qualquer uma. Mas qual é? Exato, verde. A mesma cor dos olhos de Alice.</p>
         </div>
-        <div>
+        <div style="background-color: #50982E;">
             <img src="../img/18.png">
         </div>
     </div>
@@ -29,6 +29,18 @@
     <a href="19.html" class="avancar">Avançar</a>
 
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi3.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

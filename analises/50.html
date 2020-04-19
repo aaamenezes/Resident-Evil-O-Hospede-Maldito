@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 50</title>
+</head>
+<body>
+
+<section class="doisEDois">
+
+    <div>
+        <div><p>Alice e Matt finalmente voltam pra mansão do início com a cura.</p></div>
+        <div><p>Porém estão em um claro plongée, mas por que se conseguiram voltar com a cura, vencer a criatura, a Colméia e a Umbrella? Isso não poderia ser mais enganoso.</p></div>
+    </div>
+    
+    <div>
+        <div><p>Apesar de terem a cura, a principal preocupação dela é com as pessoas que morreram. Isso fica nítido até na legenda do filme (veja abaixo):</p></div>
+        <div style="background-color: #000204;"><img src="../img/50.png"></div>
+    </div>
+    
+    <a href="49.html" class="voltar">Voltar</a>
+    <a href="51.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi14.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

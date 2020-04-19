@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 43</title>
+</head>
+<body>
+    
+<section class="umEUmVertical">
+
+    <div>
+        <div>
+            <p>Em vez de matar a colega, ela quebra o monitor do sistema para que a Red Queen pare de falar.</p>
+        </div>
+    </div>
+
+    <div>
+        <div style="background-color: #3F518A;">
+            <img src="../img/43.png">
+        </div>
+    </div>
+
+    <a href="42.html" class="voltar">Voltar</a>
+    <a href="44.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi7.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

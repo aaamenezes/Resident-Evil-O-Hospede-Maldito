@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 23</title>
 </head>
 <body>
     
@@ -17,11 +17,12 @@
         </div>
         <div>
             <p>Por mais dura que Alice esteja ficando, ela ainda se comove com a Red Queen que possui a imagem de uma criança que pede para que eles não desliguem o computador central.</p>
+            <p><spam class="spoiler">Sabe por que a Red Queen chama tanto a atenção dela?<spam class="spoilerEscondido">Em Resident Evil 6: O Capítulo Final, você descobre que Alice é um clone da criança a qual a Red Queen foi inspirada, ou seja, são a mesma pessoa.</spam></spam></p>
         </div>
     </div>
 
     <div>
-        <div>
+        <div style="background-color: #000;">
             <img src="../img/23.png">
         </div>
         <div>
@@ -33,6 +34,18 @@
     <a href="24.html" class="avancar">Avançar</a>
 
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi8.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

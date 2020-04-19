@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 42</title>
+</head>
+<body>
+    
+<section class="doisEUmHorizontal">
+
+    <div>
+        <div>
+            <p>Nesse momento, a Red Queen informa que pode liberá-los da sala, mas em troca quer a vida da colega deles que já foi mordida por um zumbi. Alice deve matá-la e rápido, porque a criatura está prestes a invadir a sala.</p>
+        </div>
+        <div>
+            <p>Porém, agora que ela se livrou daquele preto que a encobria, e voltou a mostrar seu lado mais quente e humano, ela se nega a fazer o que tem que ser feito. Mais uma vez, surge um verde atrás de Alice para dar destaque a ela.</p>
+        </div>
+    </div>
+
+    <div style="background-color: #182843;">
+        <div><img src="../img/42-cores.png"></div>
+    </div>
+
+    <a href="41.html" class="voltar">Voltar</a>
+    <a href="43.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi6.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

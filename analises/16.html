@@ -5,14 +5,14 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 16</title>
 </head>
 <body>
     
-<section class="umEUmVertical" style="background-image: url(../img/16.png); background-size: cover; background-position: center; color: #fff; font-weight: bold;">
+<section class="umEUmVertical" style="background-image: url(../img/16.png); background-size: cover; background-position: center; color: #fff;">
 
     <div>
-        <p>Primeira cena deles em contra-plongée (tooltip).</p>
+        <p>Primeira cena deles em <spam class="explicacao">contra-plongée<spam class="explicacaoEscondido">plano em que a câmera olha para o objeto de baixo para cima</spam></spam>.</p>
         <p>Eles começam a ganhar empoderamento quando invadem a Colméia.</p>
     </div>
 
@@ -24,6 +24,18 @@
     <a href="17.html" class="avancar">Avançar</a>
 
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi1.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

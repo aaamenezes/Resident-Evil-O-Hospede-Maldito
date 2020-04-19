@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 6</title>
 </head>
 <body>
     
@@ -16,7 +16,7 @@
         <p>Isso demonstra a vivacidade e calor que existe na personagem, perto do mundo frio e sombrio que ela vai enfrentar.</p>
     </div>
 
-    <div>
+    <div style="background-color: #4F716D;">
         <img src="../img/6-cores.png">
     </div>
 
@@ -24,6 +24,19 @@
     <a href="7.html" class="avancar">Avançar</a>
 
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi9.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

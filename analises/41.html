@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 41</title>
+</head>
+<body>
+    
+<section class="umEUmHorizontal">
+
+    <div>
+        <div>
+            <p>Esse plano contra-plongée, logo após a aparição da criatura, mostra que eles não estão totalmente livres dela, ou seja, ainda estão correndo perigo, que será explicado mais pra frente.</p>
+        </div>
+    </div>
+
+    <div style="background-color: #152643;">
+        <div><img src="../img/41.png"></div>
+    </div>
+
+    <a href="39e40.html" class="voltar">Voltar</a>
+    <a href="42.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi5.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

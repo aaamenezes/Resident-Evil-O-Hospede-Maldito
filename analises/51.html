@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 51</title>
+</head>
+<body>
+
+<section class="umEDoisVertical" style="background-image: url(../img/51.png); background-size: cover; background-position: center;">
+
+    <div>
+    </div>
+    
+    <div>
+        <div><p>Agora, acontece outra grande mudança de brilho: os cientistas da Umbrella aparecem e capturam os dois para realizar experimentos.</p></div>
+    </div>
+    
+    <a href="50.html" class="voltar">Voltar</a>
+    <a href="52.html" class="avancar">Avançar</a>
+
+</section>
+	
+<audio src="../trilha-suspense7.mp3" autoplay loop></audio>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi15.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

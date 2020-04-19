@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composição de Cores</title>
+</head>
+<body>
+
+<section class="um" style="background-color: #803526; color: #ff6a4d;">
+
+    <div>
+        <h1>Composição de Cores</h1>
+        <p>As cores vermelho e verde são opostas e usadas o tempo todo para dar destaque à Alice, personagem principal.</p>
+        <p>No início do filme temos uma composição quadrada, momento em que aparece o maior número de cores diferentes na tela (vermelho, amarelo, azul e verde).</p>
+    </div>
+    
+    <a href="matiz.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi11.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

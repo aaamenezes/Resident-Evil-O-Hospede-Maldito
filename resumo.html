@@ -5,25 +5,40 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resumo</title>
 </head>
-<body>
+<body style="color: #801500; text-align: right;">
     
-<section id="resumo">
+<section class="extra um">
 
-    <p>A Colméia, um laboratório subterrâneo utilizado para pesquisa genética da Umbrella Corporation, esconde algo terrível. Foi liberado no ar o T-Vírus, uma arma biológica que transforma seu hospedeiro em um zumbi com uma fome incontrolável.</p>
+    <div>
+        <h1>Resumo do filme - Resident Evil: O Hóspede Maldito</h1>
 
-    <p>Sempre que eles encontram alguém vivo, tentam se alimentar de sua carne, transformando o alvo em um novo zumbi.</p>
+        <p>A Colméia, um laboratório subterrâneo utilizado para pesquisa genética da Umbrella Corporation, esconde algo terrível. Foi liberado no ar o T-Vírus, uma arma biológica que transforma seu hospedeiro em um zumbi com uma fome incontrolável. </p>
 
-    <p>Alice, funcionária da Umbrella que perdeu sua memória recente, se integra a uma equipe que entra na Colméia para entender e tentar controlar a situação.</p>
+        <p>Sempre que eles encontram alguém vivo, tentam se alimentar de sua carne, transformando o alvo em um novo zumbi.</p>
 
-    <p>Porém isto tem de ser feito muito rápido, pois em três horas “Rainha Vermelha”, o supercomputador que controla o local, o selará para sempre e quem estiver lá dentro estará fatalmente condenado a se tornar um zumbi.</p>
+        <p>Alice, funcionária da Umbrella que perdeu sua memória recente, se integra a uma equipe que entra na Colméia para entender e tentar controlar a situação.</p>
 
-    <a href="analises/1.html">Ok, estou pronto para ver a análise</a>
+        <p>Porém isto tem de ser feito muito rápido, pois em três horas, a Red Queen, o supercomputador que controla o local, irá trancar as portas para sempre e quem estiver lá dentro estará fatalmente condenado a se tornar um zumbi.</p>
+    </div>
+
+    <a href="analises/1.html" class="avancar">Ok, estou pronto para ver a análise</a>
     
 </section>
+	
+<div id="zumbi"></div>
 
-</section>
+<script>
+
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi4.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

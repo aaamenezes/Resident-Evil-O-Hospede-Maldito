@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 37</title>
+</head>
+<body>
+    
+<section class="umEUmVertical">
+
+    <div>
+        <p>Ele até consegue fugir com a cura...</p>
+    </div>
+
+    <div style="background-color: #0B0C0D;">
+        <img src="../img/37.png">
+    </div>
+
+    <a href="36.html" class="voltar">Voltar</a>
+    <a href="39e40.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi3.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

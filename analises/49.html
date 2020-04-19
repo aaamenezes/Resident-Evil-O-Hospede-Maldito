@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 49</title>
+</head>
+<body>
+
+<section class="umEUmHorizontal" style="background-image: url(../img/49.png); background-size: cover; background-position: center; color: #fff;">
+
+    <div></div>
+    
+    <div>
+        <p>A criatura invade o trem, e essa é a última cena de perigo que eles correm.</p>
+        <p>Quando ela morre queimada no fogo, sua luz ilumina o rosto de Alice, mostrando o momento de maior brilho e saturação do filme.</p>
+        <p>Ou seja, tudo está se resolvendo, as cores estão ficando vivas e claras.</p>
+    </div>
+
+    <a href="48.html" class="voltar">Voltar</a>
+    <a href="50.html" class="avancar">Avançar</a>
+
+</section>
+	
+<audio src="../trilha-suspense6.mp3" autoplay loop></audio>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi13.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

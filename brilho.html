@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilho</title>
+</head>
+<body>
+
+<section class="um" style="background-color: #801500; color: #fff;">
+
+    <div>
+        <h1>Brilho</h1>
+        <p>O filme todo possui pouco brilho para passar a sensação de suspense e medo.</p>
+        <p>Os únicos momentos com mais brilho são quando Alice se lembra de que existe uma cura para o T-Vírus (a solução), e no final quando são capturados pelos cientistas da Umbrella.</p>
+    </div>
+    
+    <a href="saturacao.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi8.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

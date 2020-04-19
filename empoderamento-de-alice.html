@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empoderamento de Alice</title>
+</head>
+<body>
+
+<section class="um" style="background-color: #801500; color: #fff;">
+
+    <div>
+        <h1>Empoderamento de Alice</h1>
+        <p>Do início ao fim do filme, notamos a evolução da personagem principal.</p>
+        <p>Ela vai de uma mulher que não sabe onde está, anda de braços cruzados e se assusta com passarinhos, a uma batalhadora corajosa, que luta com zumbis e ainda dá o troco em Spence que tentou fugir sozinho com a cura.</p>
+    </div>
+    
+    <a href="creditos.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi13.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

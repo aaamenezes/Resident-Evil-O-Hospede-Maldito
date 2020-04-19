@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 55</title>
+</head>
+<body>
+
+<section class="umEUmVertical" style="background-image: url(../img/55.png); background-size: cover; background-position: center; color: #fff;">
+
+    <div>
+        
+    </div>
+    
+    <div>
+        <p>Alguém passa caminhando na sala de controle, demonstrando que ela não está sozinha (apesar de parecer).</p>
+    </div>
+    
+    <a href="54.html" class="voltar">Voltar</a>
+    <a href="56.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi1.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

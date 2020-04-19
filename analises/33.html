@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 33</title>
 </head>
 <body>
     
@@ -15,12 +15,12 @@
         <div>
             <p>Quando a gente começa a analisar demais um filme, muitas coisas parecem ao acaso. Mas filmes com grandes orçamentos dificilmente diriam “tanto faz” para algum detalhe.</p>
         </div>
-        <div><img src="../img/33-cores.png"></div>
+        <div style="background-color: #5089E1;"><img src="../img/33-cores.png"></div>
     </div>
 
     <div>
         <div>
-            <p>Na lembrança de Alice, o antídoto verde que é a cura, a mesma cor do olho dela. E o vírus é na cor azul, mesma cor da luz daquela sala onde algo importante aconteceu.</p>
+            <p>Na lembrança de Alice, o antídoto verde que é a cura, a mesma cor do olho dela. E o vírus é na cor azul, mesma cor da luz daquela sala onde algo importante (e ruim) vai acontecer.</p>
         </div>
         <div>
             <p>E segundo, o coelho, que aparece recebendo o antivírus, também é branco, iluminado, dando a entender que esse momento é a “luz no fim do túnel” para todos eles.</p>
@@ -31,6 +31,18 @@
     <a href="alt.html" class="avancar">Avançar</a>
 
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi16.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

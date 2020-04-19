@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matiz</title>
+</head>
+<body>
+
+<section class="um" style="background-color: ; color: #803526;">
+
+    <div>
+        <h1>Matiz</h1>
+        <p>As cores dos cenários e ambientes do filme variam entre azul, cinza, chumbo e verde, ou seja, cores neutras e frias.</p>
+        <p>Alice possui vermelho no vestido e amarelo no cabelo, sendo as únicas cores quentes do filme.</p>
+        <p>Seu vermelho está em constante contraste com o fundo verde, um esforço para destacar a personagem em um ambiente neutro e frio onde é difícil que algo se sobressaia do resto.</p>
+    </div>
+    
+    <a href="empoderamento-de-alice.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi12.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

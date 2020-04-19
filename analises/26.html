@@ -5,14 +5,14 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 26</title>
 </head>
 <body>
     
 <section class="umEUmVertical" style="background-color: #000;">
 
     <div>
-        <p style="color: #fff;">Durante boa parte do filme, as trocas de takes (tooltip) são mais calmos e lentos. A partir da cena abaixo, essa troca é muito rápida por causa dos tiros e conflitos que acontecem:</p>
+        <p style="color: #fff;">Durante boa parte do filme, as trocas de takes são mais calmos e lentos. A partir da cena abaixo, essa troca é muito rápida por causa dos tiros e conflitos que acontecem:</p>
     </div>
 
     <div style="height: 70vh;">
@@ -23,6 +23,18 @@
     <a href="27.html" class="avancar">Avançar</a>
 
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi11.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

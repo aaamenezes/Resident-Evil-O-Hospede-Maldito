@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 56</title>
+</head>
+<body>
+
+<section class="doisEUmHorizontal">
+
+    <div>
+        <div>
+            <p>Não esqueça dos vermelhos e verdes:</p>
+            <ul>
+                <li>Vermelho de sangue em seu pescoço</li>
+                <li>E verde da tela do monitor</li>
+            </ul>
+        </div>
+        <div>
+            <p>Mesmo com alguma dificuldade motora, após se desconectar dos aparelhos aos quais estava ligada, ela permanece muito inteligente e consegue passar pela barreira de segurança e...</p>
+        </div>
+    </div>
+    
+    <div style="background-color: #D5E6FF;">
+        <img src="../img/56-cores.png">
+    </div>
+    
+    <a href="55.html" class="voltar">Voltar</a>
+    <a href="57.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi2.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

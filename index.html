@@ -5,31 +5,47 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resident Evil - O Hóspede Maldito</title>
 </head>
-<body>
+<body style="background-color: #801500; color: #fff;">
     
-<section id="apresentacao">
+<section class="extra">
 
     <h1>Olá, <span id="name"></span>!</h1>
 
-    <p>Olá, você está em Raccoon City, uma cidade industrial no centro-oeste dos EUA.</p>
-
-    <p>Aqui é um lugar onde tudo acontecia normalmente, até que um vírus mortal foi solto dentro da Colméia, um laboratório subterrâneo da Umbrella Corporation. E todos começaram a se contaminar.</p>
+    <p>Você está em Raccoon City, uma cidade industrial no centro-oeste dos EUA. Aqui é um lugar onde tudo acontecia normalmente, até que um vírus mortal foi solto dentro da Colméia, um laboratório subterrâneo da Umbrella Corporation. E todos começaram a se contaminar.</p>
 
     <p>Para você não correr os mesmos riscos, siga essas 3 regras:</p>
 
     <ul>
-        <li>Não use o scroll do mouse (o scroll do mouse faz barulho e chama os zumbis)</li>
-        <li>Use apenas cliques</li>
+        <li>Certifique-se de estar acessando de um computador, e não de um dispositivo móvel</li>
+        <li>Ajuste o seu volume</li>
+        <li>Não use o scroll do mouse, pois seu barulho chama zumbis (não recomendo testar). Então use apenas cliques</li>
+        <li>Para poder enxergar bem as imagens, deixe seu ambiente escuro</li>
         <li>Aperte F11 para seu navegador ficar em tela cheia</li>
+        <li>Sempre que ver <spam class="explicacao">um texto assim<spam class="explicacaoEscondido">Viu? É assim!</spam></spam>, passe o mouse para ver uma explicação</li>
+        <li>Agora, se ver <spam class="spoiler">um texto assim<spam class="spoilerEscondido">Darth Vader para Luke: "Eu sou seu pai"</spam></spam>, passe o mouse por sua conta e risco, pois é um spoiler (eu avisei).</li>
     </ul>
 
-    <a href="pronto.html">Prosseguir</a>
+    <a href="pronto.html" class="avancar">Prosseguir</a>
 
 </section>
 
-<script type="text/javascript" src="script.js"></script>
+<div id="zumbi"></div>
+
+<script>
+    
+    let name = prompt("Informe seu nome:")
+    document.getElementById("name").innerHTML = name
+
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+    function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi1.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

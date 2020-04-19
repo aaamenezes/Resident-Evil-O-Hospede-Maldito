@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 57</title>
+</head>
+<body>
+
+<section class="doisEUmVertical">
+
+    <div>
+        <div>
+            <p>...sair da sala.</p>
+        </div>
+        <div>
+            <p>Perceba todo ambiente verde, e o plano em plongé demonstrando que ela ainda corre perigo.</p>
+        </div>
+    </div>
+    
+    <div style="background-color: #6EA890;">
+        <img src="../img/57.png">
+    </div>
+    
+    <a href="56.html" class="voltar">Voltar</a>
+    <a href="58.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi3.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

@@ -5,21 +5,110 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fim</title>
+
+    <style>
+
+        body {
+            background-color: #121212;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        img {
+            position: absolute;
+            /* top: 0;
+            left: 0; */
+        }
+
+        #a {
+            top: 20vh;
+            left: 48vw;
+            display: none;
+        }
+
+        #b {
+            right: 0;
+            bottom: 0;
+            width: 15vw;
+            z-index: 1;
+            display: none;
+        }
+
+        #c {
+            right: 13vh;
+            bottom: 0;
+            display: none;
+        }
+
+        #d {
+            left: 0;
+            bottom: 0;
+            z-index: 1;
+            display: none;
+        }
+
+        #e {
+            left: 20vw;
+            display: none;
+        }
+
+        #f {
+            right: 10vw;
+            bottom: 0;
+            width: 15vw;
+            display: none;
+        }
+
+    </style>
 </head>
-<body>
+<body onmouseleave="chamarZumbis()">
     
-<section id="fim">
+    <section class="extra" style="position: relative;">
 
-    <h1>Eu sei que você seguiu todas as regras...</h1>
+        <h1>Eu sei que você seguiu todas as regras...</h1>
 
-    <p>Mas os zumbis continuam com fome</p>
+        <p>Mas os zumbis continuam com fome, e eles podem atacar a qualquer momento, então tome cuidado!</p>
 
-    [foto + som de zumbi]
+        <p>Obrigado!</p>
 
-    <p>Obrigado!</p>
+        <img id="a" src="zumbi1.png">
+        <img id="b" src="zumbi2.png">
+        <img id="c" src="zumbi3.png">
+        <img id="d" src="zumbi4.png">
+        <img id="e" src="zumbi5.png">
+        <img id="f" src="zumbi6.png">
 
-</section>
+    </section>
+
+    <div id="audioZumbi6"></div>
+    <div id="audioZumbi9"></div>
+    <div id="audioZumbi10"></div>
+    <div id="audioZumbi11"></div>
+    <div id="audioZumbi12"></div>
+    <div id="audioZumbi13"></div>
+    <div id="audioZumbi14"></div>
+
+    <script>
+
+        function chamarZumbis() {
+            alert("EU FALEI PRA VOCÊ TOMAR CUIDADO")
+            document.getElementById("audioZumbi6").innerHTML = `<audio src='zumbi6.mp3' autoplay></audio>`
+            setTimeout(function() {document.getElementById("audioZumbi9").innerHTML = `<audio src='zumbi9.mp3' autoplay></audio>`}, 500)
+            setTimeout(function() {document.getElementById("audioZumbi10").innerHTML = `<audio src='zumbi10.mp3' autoplay></audio>`}, 1000)
+            setTimeout(function() {document.getElementById("audioZumbi11").innerHTML = `<audio src='zumbi11.mp3' autoplay></audio>`}, 1500)
+            setTimeout(function() {document.getElementById("audioZumbi12").innerHTML = `<audio src='zumbi12.mp3' autoplay></audio>`}, 2000)
+            setTimeout(function() {document.getElementById("audioZumbi13").innerHTML = `<audio src='zumbi13.mp3' autoplay></audio>`}, 2500)
+            setTimeout(function() {document.getElementById("audioZumbi14").innerHTML = `<audio src='zumbi14.mp3' autoplay></audio>`}, 3000)
+            document.getElementById("a").style.display = "inline"
+            document.getElementById("b").style.display = "inline"
+            document.getElementById("c").style.display = "inline"
+            document.getElementById("d").style.display = "inline"
+            document.getElementById("e").style.display = "inline"
+            document.getElementById("f").style.display = "inline"
+        }
+
+    </script>
 
 </body>
 </html>

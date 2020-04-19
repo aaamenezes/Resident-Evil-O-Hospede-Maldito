@@ -5,11 +5,11 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 30</title>
 </head>
 <body>
     
-<section class="umEUmVertical" style="background-image: url(../img/30.png); background-size: cover; background-position: center; color: #fff; font-weight: bold;">
+<section class="umEUmVertical" style="background-image: url(../img/30.png); background-size: cover; background-position: center; color: #fff;">
 
     <div>
 
@@ -17,13 +17,25 @@
 
     <div>
         <p>Eles acabaram de escapar de vários zumbis dentro de um túnel apertado e estão juntos tentando fugir.</p>
-        <p>Nos últimos 3 takes, você viu Alice em contra-plongée. Aos poucos, a personagem vai ganhando coragem, confiança e se tornando a fonte de confiança para um final feliz.</p>
+        <p>Nos últimos 3 takes, você viu Alice em contra-plongée. Aos poucos, a personagem vai ganhando coragem e se tornando a fonte de confiança para um final feliz.</p>
     </div>
 
     <a href="28e29.html" class="voltar">Voltar</a>
     <a href="31e32.html" class="avancar">Avançar</a>
 
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi14.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

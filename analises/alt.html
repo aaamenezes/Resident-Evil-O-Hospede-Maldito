@@ -5,14 +5,14 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - ALT</title>
 </head>
 <body>
     
-<section class="umEUmVertical" style="background-image: url(../img/alt.png); background-size: cover; background-position: center; color: #fff; font-weight: bold;">
+<section class="umEUmVertical" style="background-image: url(../img/alt.png); background-size: cover; background-position: center; color: #fff;">
 
     <div>
-        <p style="background-color: #000; padding: 10px;">Veja a diferença desses takes em comparação com os outros, perceba a diferença de brilho.</p>
+        <p style="background-color: #801500; padding: 40px; color: #fff;">Veja a comparação desses takes com os outros, perceba a diferença de brilho.</p>
     </div>
 
     <div></div>
@@ -21,6 +21,18 @@
     <a href="34.html" class="avancar">Avançar</a>
 
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi17.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

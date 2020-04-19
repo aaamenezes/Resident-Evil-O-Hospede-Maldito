@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 46</title>
+</head>
+<body>
+    
+<section class="umEUmHorizontal" style="background-image: url(../img/46.png); background-size: cover; background-position: center; color: #fff;">
+
+    <div>
+        <p>E ele é que a olha de baixo.</p>
+        <p>(da pior forma possível)</p>
+    </div>
+
+    <div>
+        
+    </div>
+
+    <a href="45.html" class="voltar">Voltar</a>
+    <a href="47.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi10.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

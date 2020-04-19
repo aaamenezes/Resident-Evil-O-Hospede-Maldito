@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 58</title>
+</head>
+<body>
+
+<section class="umEUmVertical">
+
+    <div style="background-color: #34665E;">
+        <img src="../img/58.png">
+    </div>
+    
+    <div>
+        <p>Mais um pouco de verde para variar.</p>
+    </div>
+    
+    <a href="57.html" class="voltar">Voltar</a>
+    <a href="59.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi4.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

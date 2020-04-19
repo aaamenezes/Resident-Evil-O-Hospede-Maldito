@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturação</title>
+</head>
+<body>
+
+<section class="um" style="background-color: #ff6a4d;">
+
+    <div>
+        <h1>Saturação</h1>
+        <p>Com exceção do momento que Alice e Matt conseguem matar a criatura, todas as cores são extremamente pouco saturadas, deixando um ar triste.</p>
+        <p>Nesse caso, a saturação também é usada em momentos em que algo está se resolvendo.</p>
+    </div>
+    
+    <a href="temperatura.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi9.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

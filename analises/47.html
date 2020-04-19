@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 47</title>
+</head>
+<body>
+    
+<section class="umEUmHorizontal">
+
+    <div style="background-color: #121D2F;">
+        <img src="../img/47.png">
+    </div>
+
+    <div>
+        <p>Mais uma vez mostrando seu lado humano, Alice tenta curar sua colega que já foi mordida por um zumbi.</p>
+        <p>É possível ver o vermelho tanto de seu vestido, quanto do sangue.</p>
+    </div>
+
+    <a href="46.html" class="voltar">Voltar</a>
+    <a href="48.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi11.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 54</title>
+</head>
+<body>
+
+<section class="umEUmVertical" style="background-image: url(../img/54.png); background-size: cover; background-position: center;">
+
+    <div>
+        
+    </div>
+    
+    <div>
+        <p>Tudo muito claro, brilho alto, diferente de tudo até aqui. Então algo mudou, mas será que isso é bom?</p>
+    </div>
+    
+    <a href="53.html" class="voltar">Voltar</a>
+    <a href="55.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi18.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

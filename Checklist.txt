@@ -6,36 +6,28 @@ OK	Criar modelos de diagramação das páginas de análise
 OK	Copiar comentários para um doc sem as imagens e ver se o texto faz sentido
 OK	Fazer análise final sobre brilho, saturação, temperatura, composição de cores, matiz
 OK	Colocar a roda das cores em cima de algumas imagens
-	Colocar textos e imagens da análise nos ARTICLES / Escolher a diagramação de cada ARTICLE / Colocar botões de IR e VOLTAR em todas telas
-	
-	Colorir texto, fundo do texto, e fundo das imagens em cada página
-	
-	Colocar um "vc não pode mais voltar" na primeira página de análise
-	
-	Criar créditos
-	Criar fim
-
-
-
-
-
-
-
-
-
-
+OK	Colocar textos e imagens da análise
+OK	Colocar os tooltip de explicação e de spoiler
+OK	Colorir texto, fundo do texto, e fundo das imagens em cada página
+OK	Criar créditos
+OK	Criar fim
+OK	Conferir o texto com a tanúbia
+OK	Colocar um "vc não pode mais voltar" na primeira página de análise
+OK	<title> e H1 nas páginas
+OK	audio trilha + zumbi + função js zumbi em todas páginas
+OK	Corrigir alinhamento dos textos
+	Colocar susto na página final
+	Aumentar tempo surgir botão voltar e avançar
 
 ------------------
 
-umEUmVertical
-umEDoisVertical
-doisEUmVertical
-doisEUmHorizontal
-
 um
-umEDoisHorizontal
+doisEUmVertical
+umEDoisVertical
 doisEDois
+umEDoisHorizontal
 umEUmHorizontal
+umEUmVertical
 
 -------------------
 

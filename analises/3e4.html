@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 3 e 4</title>
 </head>
 <body>
     
@@ -13,14 +13,14 @@
 
     <div>
         <div>
-            <p>Agora temos dois planos em plongée (tooltip demonstrando a fragilidade dos funcionários, o quão incapazes eles são de se manter vivos. Isso, alguns segundos antes de eles “morrerem”.</p>
+            <p>Agora temos dois <span class="explicacao">planos em plongée<spam class="explicacaoEscondido">plano em que a câmera olha para o objeto de cima para baixo</spam></spam></span> demonstrando a fragilidade dos funcionários, o quão incapazes eles são de se manter vivos. Isso, alguns segundos antes de eles “morrerem”.</p>
         </div>
-        <div>
+        <div style="background-color: #000;">
             <img src="../img/3.png">
         </div>
     </div>
     <div>
-        <div>
+        <div style="background-color: #000;">
             <img src="../img/4.png">
         </div>
         <div>
@@ -32,6 +32,21 @@
     <a href="5.html" class="avancar">Avançar</a>
 
 </section>
+	
+<audio src="../trilha-suspense2.mp3" autoplay loop></audio>
+
+<div id="zumbi"></div>
+
+<script>
+
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi7.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>

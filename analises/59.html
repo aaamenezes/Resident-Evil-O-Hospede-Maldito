@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 59</title>
+</head>
+<body>
+
+<section class="umEUmHorizontal">
+
+    <div style="background-color: #406099;">
+        <img src="../img/59.png">
+    </div>
+    
+    <div>
+        <p>Ela se veste, e “consegue fugir” do Hospital de Raccoon City.</p>
+    </div>
+    
+    <a href="58.html" class="voltar">Voltar</a>
+    <a href="60.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi5.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

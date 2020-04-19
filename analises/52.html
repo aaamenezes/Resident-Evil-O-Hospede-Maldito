@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - 52</title>
+</head>
+<body>
+
+<section class="umEDoisHorizontal">
+
+    <div style="background-color: #9EB8D5;">
+        <img src="../img/52.png">
+    </div>
+    
+    <div>
+        <div>
+            <p><spam class="spoiler">Matt é levado para...<spam class="spoilerEscondido">o projeto Nemesis e vira o próprio no Resident Evil 2 Apocalipse.</spam></spam></p>
+        </div>
+        <div>
+            <p>Alice também é capturada.</p>
+        </div>
+    </div>
+    
+    <a href="51.html" class="voltar">Voltar</a>
+    <a href="53.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi16.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

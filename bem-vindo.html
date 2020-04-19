@@ -5,20 +5,31 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bem-Vindo(a)</title>
 </head>
-<body>
+<body style="background-color: #FF6A4D;">
     
-<section id="bemVindo">
+<section class="extra um">
     
-    <h1>Seja bem-vindo à análise do filme Resident Evil: O Hóspede Maldito</h1>
+    <div>
+        <h1>Seja bem-vindo à análise do filme Resident Evil: O Hóspede Maldito</h1>
 
-    <p>Data de lançamento: 30 de maio de 2002 (Brasil)</p>
-    <p>Direção: Paul W. S. Anderson</p>
+        <p>Data de lançamento: 30 de maio de 2002 (Brasil)</p>
+        <p>Direção: Paul W. S. Anderson</p>
 
-    <a href="resumo.html">Conhecer filme</a>
-
+        <a href="resumo.html" class="avancar">Quero conhecer ofilme</a>
+    </div>
 </section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+    function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi3.mp3' autoplay></audio>`
+    }
+</script>
 
 </body>
 </html>

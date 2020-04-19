@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+</head>
+<body>
+
+<section class="um" style="background-color: #ff2a00; color: #fff;">
+
+    <div>
+        <h1>Temperatura</h1>
+        <p>Todo o filme é frio, distante e pouco convidativo. Assim como na saturação, o único momento de calor é durante a morte da criatura.</p>
+    </div>
+    
+    <a href="composicao-de-cores.html" class="avancar">Avançar</a>
+
+</section>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='zumbi10.mp3' autoplay></audio>`
+    }
+
+</script>
+
+</body>
+</html>

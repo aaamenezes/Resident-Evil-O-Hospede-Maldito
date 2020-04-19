@@ -5,13 +5,13 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Análise - 12</title>
 </head>
 <body>
     
 <section class="umEDoisHorizontal">
 
-    <div>
+    <div style="background-color: #172C44;">
         <img src="../img/12.png">
     </div>
 
@@ -23,7 +23,7 @@
             <ul>
                 <li>O plano plongée mostra que eles estão correndo perigo e vulneráveis, pois é nesse local que acontece o primeiro conflito com os zumbis;</li>
                 <li>As cores neutras, baixa saturação e brilho combinados demonstra o medo que eles devem sentir;</li>
-                <li>E a câmera over the shoulder (tooltip) mostra que eles podem estar sendo espionados, ou seja, mais tensão no ar ainda.</li>
+                <li>E a câmera <spam class="explicacao">over the shoulder<spam class="explicacaoEscondido">plano em que a câmera filma por cima do ombro ou objeto</spam></spam> atrás de um pilar mostra que eles podem estar sendo espionados, ou seja, mais tensão no ar ainda.</li>
             </ul>
         </div>
     </div>
@@ -32,6 +32,20 @@
     <a href="13.html" class="avancar">Avançar</a>
 
 </section>
+	
+<audio src="../trilha-suspense3.mp3" autoplay loop></audio>
+	
+<div id="zumbi"></div>
+
+<script>
+    document.querySelector("body").addEventListener("wheel", scroll);
+
+	function scroll() {
+        alert("Os zumbis estão vindo...")
+        document.getElementById("zumbi").innerHTML = `<audio src='../zumbi15.mp3' autoplay></audio>`
+    }
+
+</script>
 
 </body>
 </html>
