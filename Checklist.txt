@@ -16,8 +16,8 @@ OK	Colocar um "vc não pode mais voltar" na primeira página de análise
 OK	<title> e H1 nas páginas
 OK	audio trilha + zumbi + função js zumbi em todas páginas
 OK	Corrigir alinhamento dos textos
-	Colocar susto na página final
-	Aumentar tempo surgir botão voltar e avançar
+OK	Colocar susto na página final
+OK	Aumentar tempo surgir botão voltar e avançar
 
 ------------------
 
