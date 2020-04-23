@@ -136,10 +136,11 @@ section ul {
     /* align-items: center; */
 }
 
-    .um div {
+    .um > div {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         height: 100vh;
         width: 100vw;
     }
@@ -163,7 +164,7 @@ section ul {
     height: 100vh;
 }
 
-    .umEUmVertical div {
+    .umEUmVertical > div {
         display: flex;
         flex-direction: column;
         justify-content: center;
